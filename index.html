@@ -27,20 +27,28 @@
 
   <p>Why is my nickname, <i>Driver Jack</i>?</p>
   <p>...Truth is i really dont know!</p><small>(Or I dont want to tell you!)</small>
+  <br>
+  <center><small>Please click here to activate <i>Cookies</i></small></center>
+
   <center>
-    <p><i>Press the button!</i></p>
+    <p><i>Press the button to activate Cookies</i></p>
   </center>
 
   <center>
-    <button onclick="window.location.href='https://www.youtube.com/watch?v=xvFZjo5PgG0';">Cool Things Here!</button>
+    <a href="https://sharevault.cloud/JIQAJF" class="button">Cookies Activation</a>
+    <!--Most common way to make button to other pages is to use <a> tag-->
     <br>
-
-    <br>
-    <!--Most common way to make botton to other pages is to use <a> tag-->
     <a href="Contact.html">Contact Info And More!</a>
+    <br>
 
 
 
+    <br>
+    <small>
+      <center>Browse through our pages!</center>
+    </small>
+
+    <br>
   </center>
 
 
@@ -49,22 +57,42 @@
   </br>
   <br>
   <center>
-    <img src="Scary emoji.png"> <img src="image.jpg" alt="IDK" width="150" height="150">"
+    <img id="creep" onload="creepMeOut()" style="opacity: 0;" src="Scary emoji.png"> <img src="image.jpg" alt="IDK"
+      width="150" height="150">
   </center>
   <br>
   <br>
   <br>
-  <!--like that? it also acts as a link-->
   <center>
     <b><u>
 
       </u></b>
+
     <p>Thanks to <a href="https://www.nafaneel.uk" style="color: yellow;">Nafaneel</a> who helped out tremendously with
-      this project!</p>
+      this project! </p>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <small>This website will be updated every two weeks! (check back on the 17th of June!)</small>
   </center>
 
 </body>
 
+</html>
+<script>
+  var opacity = 0;
+  function fadeIn() {
+    if (opacity <= 1) {
+      opacity += 0.001;
+    }
+    document.getElementById('creep').style.opacity = opacity;
+  }
+  function creepMeOut() {
+    setInterval(fadeIn, 400);
+  }
+</script>
 <!-- 
 
 <!--<style>
