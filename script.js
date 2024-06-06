@@ -14,8 +14,6 @@ function navigateToHomeprepage() {
   window.location.href = "setup.html";
 }
 
-function navigateToAnotherPage() {
-  window.location.href = "<-- Back to Home Page";";
-}
+
 
 
