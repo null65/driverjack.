@@ -17,4 +17,6 @@ These are the code files for the title icon and color changes
 
     [Notes For JB]
     upload new update on 10th of july
-    
+
+    [colorchang]
+    <body style="background-color: #000000;">
