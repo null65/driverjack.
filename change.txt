@@ -20,3 +20,7 @@ These are the code files for the title icon and color changes
 
     [colorchang]
     <body style="background-color: #000000;">
+
+    [To Make button go to certian point on a page]
+    put this tag where the .html file would be  on the button: Projects.html#pageBottom
+    put this tag at the exact place on the page where you want the button to move to: <div id="pageBottom"></div>
