@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+html,
+body {
+  color: #ffffff;
+  background: #000000;
+  font-family: Ubuntu;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
