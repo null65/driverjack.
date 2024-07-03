@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #0091ff;
+  color: #fbff00;
 }
 
 
@@ -32,7 +32,7 @@ transition: all 0.2s;
 }
 a.button1:hover{
 color:#000000;
-background-color:#FFFFFF;
+background-color:#10679e;
 }
 @media all and (max-width:30em){
 a.button1{
@@ -54,4 +54,11 @@ position:relative;
 48%{top:-0.4em}
 50%{top:0em}
 100%{top:0em;}
+}
+.surround {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
 }
