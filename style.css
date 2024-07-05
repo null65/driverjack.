@@ -32,7 +32,7 @@ transition: all 0.2s;
 }
 a.button1:hover{
 color:#000000;
-background-color:#10679e;
+background-color:#ffffff;
 }
 @media all and (max-width:30em){
 a.button1{
@@ -41,24 +41,28 @@ margin:0.4em auto;
 }
 }
 
-
-.bouncy{
-animation:bouncy 5s infinite linear;
-position:relative;
+/* ZIPPY BUTTONS DRJ24 */
+.button1 {
+  
+  animation: bounce 2s 2; /* Adjust the animation duration */
 }
-@keyframes bouncy {
-0%{top:0em}
-40%{top:0em}
-43%{top:-0.9em}
-46%{top:0em}
-48%{top:-0.4em}
-50%{top:0em}
-100%{top:0em;}
+.bouncy {
+  
 }
-.surround {
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); 
+  }
+  100% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0); 
+  } /* This creates a pause */
+  100.1% {
+    transform: translateY(0); 
+  } 
 }
